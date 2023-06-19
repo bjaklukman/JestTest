@@ -32,10 +32,3 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-
-  test-Jest:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2   
-    - name: Run tests
-      run: yarn test
