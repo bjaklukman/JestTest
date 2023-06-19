@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     
-    "test": "yarn run jesttest --coverage"
+    "test": "yarn run jest --coverage"
   },
   "keywords": [],
   "author": "",
